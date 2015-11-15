@@ -5,3 +5,4 @@
 
 ##### Examples
 - [TensorFlow Basics](tensorflow_basics.md)
+- [Linear Regression](linear_regression.md)
