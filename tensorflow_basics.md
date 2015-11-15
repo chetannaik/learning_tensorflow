@@ -17,6 +17,9 @@
 - **Fetch and feed data with Session.run**
     - Compilation, optimization, etc. happens at this step
 
+----
+
+Link to ipynb file: [code](code/tensorflow_basics.ipynb)
 
 ----
 
@@ -96,8 +99,9 @@ with tf.Session() as sess:
 #### 3. Basic Operations II: NN feedforward
 
 <img src="img/p1.png" width=200>
-  
-$$h_i = ReLU(Wx+b)$$
+
+h_i = ReLU(Wx+b)
+
 
 **_W_, _b_:**  
 - **Variables** are 0-ary stateful nodes which output their current value
