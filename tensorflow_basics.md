@@ -19,9 +19,6 @@
 
 ----
 
-Link to ipynb file: [code](code/tensorflow_basics.ipynb)
-
-----
 
 #### 1. Hello World
 
