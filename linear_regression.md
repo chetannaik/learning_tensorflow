@@ -41,7 +41,7 @@ y_pred = tf.add(tf.mul(W, x), b)
 
 
 ```python
-#initialize variables
+# initialize variables
 init = tf.initialize_all_variables()
 
 # define a cost function (MSE)
