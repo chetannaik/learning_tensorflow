@@ -18,7 +18,7 @@ display_step = 10
 
 
 ```python
-# Training Data
+# Data
 train_X = np.linspace(-1, 1, 101)
 train_Y = train_X * 2 + np.random.randn(*train_X.shape) * 0.3 + 2 * np.random.rand() * train_X.shape[0]
 ```
