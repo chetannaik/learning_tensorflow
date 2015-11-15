@@ -31,7 +31,7 @@ train_Y = train_X * 2 + np.random.randn(*train_X.shape) * 0.3 + 2 * np.random.ra
 x = tf.placeholder(tf.float32, shape=(None,), name="x")
 y = tf.placeholder(tf.float32, shape=(None,), name="y")
 
-# weight node
+# weight and bias nodes
 W = tf.Variable(np.random.randn(), name="Weight")
 b = tf.Variable(np.random.randn(), name="Bias")
 
