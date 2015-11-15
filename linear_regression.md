@@ -18,7 +18,7 @@ display_step = 10
 
 
 ```python
-# Training Data
+# Data
 train_X = np.linspace(-1, 1, 101)
 train_Y = train_X * 2 + np.random.randn(*train_X.shape) * 0.3 + 2 * np.random.rand() * train_X.shape[0]
 ```
@@ -31,7 +31,7 @@ train_Y = train_X * 2 + np.random.randn(*train_X.shape) * 0.3 + 2 * np.random.ra
 x = tf.placeholder(tf.float32, shape=(None,), name="x")
 y = tf.placeholder(tf.float32, shape=(None,), name="y")
 
-# weight node
+# weight and bias nodes
 W = tf.Variable(np.random.randn(), name="Weight")
 b = tf.Variable(np.random.randn(), name="Bias")
 
@@ -41,7 +41,7 @@ y_pred = tf.add(tf.mul(W, x), b)
 
 
 ```python
-#initialize variables
+# initialize variables
 init = tf.initialize_all_variables()
 
 # define a cost function (MSE)
