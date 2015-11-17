@@ -7,3 +7,4 @@
 - [TensorFlow Basics](tensorflow_basics.md)
 - [Linear Regression](linear_regression.md)
 - [Logistic Regression](logistic_regression.md)
+- [Word2Vec](word2vec.md)
