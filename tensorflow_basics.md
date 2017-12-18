@@ -77,7 +77,7 @@ b = tf.placeholder(tf.types.int16)
 
 ```python
 add = tf.add(a, b)
-mul = tf.mul(a, b)
+mul = tf.multiply(a, b)
 ```
 
 
